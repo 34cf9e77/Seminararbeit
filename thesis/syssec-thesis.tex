@@ -1,0 +1,94 @@
+\documentclass[seminarpaper, english]{syssec-report} % 				 Available options: syssec-report (report or seminarpaper) or syssec-thesis (bachelorthesis, masterthesis)
+% \documentclass[bachelorthesis, english]{syssec-thesis} % 				 Available options: syssec-report (report) or syssec-thesis (bachelorthesis, masterthesis)
+
+\makeglossaries
+
+\loadglsentries{acronyms/acronyms.tex}
+
+\usepackage{blindtext}
+
+\author{Dustin Bär}
+\authoraddress{Musterstr.~90\\12345 Essen}
+\matrikelnumber{2251234}
+\title{Titel~der~Arbeit}
+\supervisor{Univ.-Prof.~Dipl.-Ing.~Dr.~Betreuer~Name}
+\reviewerA{Reviewer~A}
+\reviewerB{Reviewer~B}
+\degreecourse{Angewandte Informatik~---~Network Engineering}
+\location{Essen}
+\handoverdate{23.10.2016}
+\semester{Wintersemester~2017/2018}
+
+
+%% load bibs
+\addbibresource{bibliography/bibliography.bib}
+
+\makeatletter
+\newif\ifhbreport
+\@ifclasswith{report}{syssec-report}{\hbreporttrue}{\hbreportfalse}
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle				% Title Page
+
+
+\cleardoublepage
+\pagenumbering{Roman}
+\addcontentsline{toc}{chapter}{Contents}%
+\tableofcontents		% Table of Contents
+\newpage
+\listofillustrations	% List of Figures and List of Tables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input{components/acknowledgements.tex}
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{components/abstract.tex}
+\glsresetall
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Reset the page counter for the actual content
+
+\cleardoublepage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input{chapters/chapter01.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input{chapters/chapter02.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input{chapters/chapter03.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input{chapters/chapter04.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input{chapters/chapter05.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\input{chapters/chapter06.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{components/appendix.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\printbibliography[heading=bibintoc]
+
+\end{document}
