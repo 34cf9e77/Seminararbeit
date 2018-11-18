@@ -1,0 +1,20 @@
+# Abstract 
+
+- Hypervisors can claim a higher capita on the market 
+
+- They succeeeded because, they match the needed 
+resources to certain usage scenarios 
+
+- But these techniques do also claim rich need of "efficiency and isolation"
+
+# Introduction 
+
+(first part)
+
+- operating Systems handle a bunch of abstractions to 
+get the resource sharing right 
+
+- noticable are the diverse strategies, 
+of sharing resources like files, etc. 
+
+

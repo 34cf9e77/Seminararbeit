@@ -2,7 +2,7 @@
 % translations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newif\ifgerman\germantrue
+\newif\ifgerman\germanfalse
 
 \DeclareOption{english}{
 	\germanfalse
@@ -444,15 +444,15 @@
 	{\Huge\bfseries\textsc{\@arbeitstyp}}\\[1.5cm]
 
 	{\@stringTitle\\[2mm]
-	\huge\bfseries\textsc{\centering\@title}}\\Vorgelegt der Fakultät für Wirtschaftswissenschaften\\der Universität Duisburg-Essen (Campus Essen)\\[2cm]
+	\huge\bfseries\textsc{\centering\@title}}\\Submitted at the faculty of economics \\of the University of Duisburg-Essen (Campus Essen)\\[2cm]
 	\linespread{1.05}\selectfont % reset linespread back to the document's default
 
 	{\@stringAuthor\\
-	\bfseries \@author}\\\@authoraddress\\\@stringMatrikelnumber~{\bfseries \@matrikelnumber}\\[3cm]
+	\bfseries \@author}\\\@authoraddress\\\@stringMatrikelnumber~{\bfseries \@matrikelnumber}\\[2cm]
 
-	%\scalebox{1.1} {
+	\scalebox{1.1} {
 		\@supervisorreviewer
-	%}
+	}
 	\end{center}
 	\end{titlepage}
 }

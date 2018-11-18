@@ -1,36 +1,30 @@
-\newpage
-\section*{Abstract}
-\addcontentsline{toc}{chapter}{Abstract}%
 
-\ifhbreport \thispagestyle{plain} \else  \fi
+# Abstract 
 
-% \thispagestyle{plain}
-
-\begin{flushleft}
-Cloud computing enables on-demand provision of various IT resources over a network, such as the Internet. 
+Cloud computing enables on-demand provision of various IT resources over a network, such as the Internet.
 
 To do this, it is crucial to adjust the resources available, to meet the needs of each peer, to prevent bottlenecks.
 
-Virtualization is a technique\footnote[1]{https://tinyurl.com/y9dv6wam}  that represents resources, regardless of their physical presence, and gives a user a replica of them.
+Virtualization is a technique that represents resources, regardless of their physical presence, and gives a user a replica of them.
 
 Clouds use Virtualization to meet the demand for specific resources by merely replicating them.
 
-Virtual machines\footnote[2]{https://tinyurl.com/ybx5zlfd} are a virtualization technique that implement the above concept , by putting an abstraction layer over an already existing operating system to enable the installation of another one.
+Virtual machines are a virtualization technique that implement the above concept , by putting an abstraction layer over an already existing operating system to enable the installation of another one.
 
 Containers are another virtualization technology,  that has gained in popularity,  in recent years. 
 The container approach differs from the virtual machines in , that the abovementioned abstraction layer does not exist.
 
 Instead container share crucial components, like the kernel, or system binaries with the existing operating system. 
 
-These propierties, will be demonstrate at Docker\footnote[3]{https://www.docker.com}, a popular Container-Format. 
+These propierties, will be demonstrate at Docker, a popular Container-Format. 
+
 
 In this work we try to highlight the similarities as well as the differences of the virtualization methods mentioned above.
 
 Thereafter , the techniques are categorized according to the quantitative aspects of performance, hardware utilization, deployment, security and setup. 
 
-Additionally these aspects will be demonstrated in an OpenStack\footnote[3]{https://www.openstack.org} Cloud. 
+Additionally these aspects will be demonstrated in an OpenStack Cloud. 
  
 Finally, this work  tries to give the reader a possible guideline when which approach is preferable to the other.
 
 
-\end{flushleft}

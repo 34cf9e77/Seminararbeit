@@ -1,0 +1,12 @@
+
+# A Comparative Study of Containers and Virtual Machines in Big Data Environment
+
+# Abstract
+
+- Container technique is gaining increasing attention , and did become an alternative to virtual machines 
+
+-> On of the reason, is the encapsulation ,  as well as efficiency and flexibility in resources sharing.
+
+- It seems that  containers provide a more easy-to-deploy and scalable environment for big data workloads. 
+
+ 

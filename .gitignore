@@ -2,3 +2,17 @@
 
 .DS_Store
 .vscode/
+
+# ignore copyright sources 
+
+papers/
+
+#ignore compiled data 
+
+thesis/syssec-thesis.*
+! thesis/syssec-thesis.cls
+! thesis/syssec-thesis.tex
+
+# ignore logging files 
+
+*.log
