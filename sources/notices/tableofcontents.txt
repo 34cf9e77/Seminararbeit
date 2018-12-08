@@ -1,0 +1,37 @@
+Contents
+
+Contents I 
+
+Abstract II 
+
+1 General 1
+
+x Virtualization
+
+x.1 Abstract
+
+x.1.1 Basic Concepts 
+
+x.1.2 General Purposes 
+
+x.1.3 Reallife Scenario
+
+x.1.4 Motivation
+
+x.2 container
+
+x.2.1 container basics 
+
+x.2.2 docker as container format 
+
+x.2.2.1 how are the concepts implemented in docker 
+
+x Differences between container and virtual machines 
+
+    x.1 Quantitative Approach
+
+    x.2 Qualitative Approach 
+
+
+
+

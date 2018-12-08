@@ -1,0 +1,107 @@
+-> x Virtualization
+
+-> x.1 Abstract 
+
+In der Informatik, versteht man unter dem Begriff der Virtualisierung, 
+die Bereitstellung verschiedener Ressourcen , unabhängig von ihrer eigentlichen 
+physichen Existenz. [Fussnote : http://www.kernelthread.com/publications/virtualization/]
+
+In computer science, the term virtualization means 
+the provision of various resources, regardless of their actual
+physical existence.
+
+
+-> x.1.1 Basic Concepts 
+
+Um die oben beschriebene Funktion umzusetzen, versucht die
+Virtualisierung, ein - oder mehrere Gastsysteme auf einem 
+Wirtssystem auszuführen. 
+
+Essentiell ist hierfür eine Abstraktionsschicht, welche 
+dem Gastsystem eine Schnittstelle bietet, um bestimmte 
+Instruktionen vom Wirtssystem ausführen zu lassen.  
+
+To provide these functionality,
+the Virtualization tries to 
+run one or more guest systems on 
+one Host system.
+
+Essential for this is an abstraction layer, which
+provides the guest an interface to execute 
+certain (privileged) instructions from the host system.
+
+-> x.1.2 General Purposes 
+
+Die generele Absicht, in dem Einsatz von Virtualisierung, 
+ist eine effiziente Auslastung der zugrundeliegenden Ressourcen. 
+
+The general intention in the use of virtualization,
+is an efficient utilization of the underlying resources.
+
+-> x.1.3 Reallife Scenario 
+
+Unternehmen sehen sich auch in IT-Landschaften, 
+mit dem Problem konfrontiert, bestimme Dienste oder Produkte 
+zum niedrigsten Preis anzubieten. 
+
+Die Ausführung einer Anendung auf einem 
+einzelnen Server ist mindestens wünschenswert, je nach Anforderungen 
+sogar notwendig [Fussnote]
+
+
+Companies are facing the problem, to offer a product 
+at the lowest price in IT landscapes as well as in any other 
+part of their business. 
+
+The execution of an application on one
+single server is at least desirable, depending on requirements
+even necessary.
+
+
+[Fussnote https://www.redhat.com/en/topics/virtualization/what-is-virtualization]
+Wir nehmen beispielsweise an, ein Unternehmen hostet drei Anwendungen, 
+jeweils auf einen eigenen Server. 
+
+Jede Anwendung veranschlagt ein Drittel der verfügbaren 
+Rechenkapazitäten. 
+
+Hieraus folgt, dass die restlichen 
+zwei Drittel nicht verbraucht werden. 
+
+Nichtsdestotrotz, veranschlagen die jeweiligen Server, trotz der 
+geringen Beanspruchung, dieselben Unterhaltskosten , als 
+wären diese voll ausgelastet.
+ 
+
+For example, suppose a company hosts three applications,
+each on its own server.
+
+Each application estimates one-third of the available
+Computing capacity.
+
+It follows that the remaining
+two-thirds are not consumed.
+
+Nonetheless, the respective servers rate, despite that
+low maintenance, the same maintenance costs, as
+they would be fully utilized.
+
+-> x.1.4 Motivation
+
+Virtualisierung kann das oben beschriebene und ähnliche 
+Szenarien lösen, indem es Unternehmen die Möglichkeit verschafft 
+ihre Ressourcen , gemäß den Ansprüchen einer Anwendung hin 
+zu partitionieren. 
+ 
+
+Somit kann die Auslastung der gegebenen Ressourcen gesteigert werden, 
+um die Neuanschaffung, sowie deren Unterhalt zu verhindern. 
+
+ 
+Virtualization can solve the problem, described above, 
+by giving companies the opportunity to partition.
+their resources, according to the requirements of an application.
+ 
+
+Thus, the utilization of the given resources can be increased,
+to prevent the purchase and their maintenance.
